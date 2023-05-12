@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>my website</title>   
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+ <body >
+    <div class = "hero">
+        <video autoplay loop muted plays-inline class="video">
+        <source src= "website video.mp4">
+        </video>
+        <nav>
+            <img src = "logo.png" class="logo"/>
+            <ul>
+                <li><a href = "http://127.0.0.1:5500/adm.html">HOME</a></li>
+                <li><a href = "#">VARIETS</a></li>
+                <li><a href = "#">POPULAR</a></li>
+                <li><a href = "#">Food</a></li>
+                <li><a href = "#">CONTACT US</a></li>
+            </ul>
+         </nav>
+        <h1 style="margin-bottom:550px;font-size:105px;color: azure; margin: 0%;">FASHION</h1><br>
+        <h2 style="margin-right: 20%;">TRENDS</h2>
+        <form action="http://127.0.0.1:5500/adm.html">
+            <fieldset class="sssss" >
+                <legend style="padding: 10px;">FORMS</legend>
+                <label>EMAIL</label>
+                <input  type="email" required style="background-color: transparent;">
+                <br>
+                <label>PASSWORD</label>
+                <input id ="password" type="text" required style="background-color: transparent;">
+                <br>
+                <label>Confirm password</label>
+                <input onkeyup="checker()" id="checkpass" type="text" required style="background-color: transparent;">
+                <br>
+                <button id="but"style="background-color:transparent">SUBMIT</button>
+            </fieldset>
+        </form>
+     </div>
+ </body>
+
+</html>
